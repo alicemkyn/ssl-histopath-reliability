@@ -1,0 +1,15 @@
+# Core
+torch>=1.12
+torchvision>=0.13
+numpy
+pandas
+scikit-learn
+
+# Data / imaging
+h5py          # PatchCamelyon is distributed as HDF5
+pillow
+
+# Plotting / notebooks
+matplotlib
+jupyter
+ipython

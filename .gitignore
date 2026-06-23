@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Datasets are NOT tracked — download from Kaggle (see README.md)
+data/
+*.h5
+*.tif
+*.tiff
+
+# Model weights / checkpoints
+*.pth
+*.pt
+weights/
+
+# Run artifacts (incremental checkpoints written by the notebooks)
+_partial_results_*.csv
+outputs/
